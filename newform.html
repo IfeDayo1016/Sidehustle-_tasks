@@ -2,31 +2,33 @@
 <html>
     <head>
         <title> New Form</title>
+        <link rel="stylesheet" href="formcs.css">
     </head>
     <body>
+        <div id="formbody">
         <form method="" onsubmit="formsubmission()">
             <label for="name">Name:</label>
-            <input type="text" name="fullname" id="name" required>
+            <input type="text" name="fullname" id="name" class="xgen" required autofocus placeholder="Full Name">
             <br><br>
             
             <label for="email">Email Address:</label>
-            <input type="emai" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            <input type="email" name="email" id="email" class="xgen" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="example@gmail.com" required>
             <br><br>
 
-            <label for="tel">Phone Number</label>
-            <input type="tel" name="telephone" id="tel" required>
+            <label for="tel">Phone Number:</label>
+            <input type="tel" name="telephone" class="xgen" id="tel" required>
             <br><br>
 
             <label for="sex">Gender:  </label>
-            <label for="male">Male</label>
             <input type="radio" name="sex" id="male" value="Male" required>
+            <label for="male">Male</label><br>
 
-            <label for="female">Female</label>
             <input type="radio" name="sex" id="female" value="Female" required>
+            <label for="female" class="femaleradio">Female</label>
             <br><br> 
             
             <label for="pwd">Password:</label>
-            <input type="password" id="pwd" name="password" required>
+            <input type="password" id="pwd"  class="xgen" name="password" required>
             <br><br>
 
             <input type="submit" value="Submit">    
@@ -36,5 +38,6 @@
                 }
                 </script>          
         </form>
+    </div>
     </body>
 </html>

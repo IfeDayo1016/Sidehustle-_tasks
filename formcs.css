@@ -1,0 +1,46 @@
+.xgen{
+    width: 100%;
+    height:30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(46, 46, 46);
+    border-radius: 5px;
+    outline:none;
+}
+.xgen:focus{
+    border: 2px solid rgb(131, 130, 130);
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #333b33;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color:grey;
+}
+#female{
+    position:relative;
+    left:55px;
+}
+.femaleradio{
+    position:relative;
+    left:55px;
+}
+body{
+    margin:0px;
+}
+#formbody{
+    background-color:#c1c8c96b;
+    padding:15px;
+    border-width:10px;
+    border-radius:9px;
+    border-color:white;
+    margin:25px;
+}
